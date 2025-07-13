@@ -61,3 +61,59 @@ main .right {
   font-size: 1.2rem;
   overflow: auto;
 }
+
+/* === Markdown output styling === */
+.markdown-output {
+  color: #f0f0f0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.markdown-output pre {
+  background: #0c0c0c;
+  color: #f8f8f2;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  overflow-x: auto;
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+}
+
+.markdown-output code {
+  color: #f8f8f2;
+}
+
+/* Highlight.js fallback styles */
+.markdown-output .hljs-keyword,
+.markdown-output .hljs-title,
+.markdown-output .hljs-function {
+  color: #ffcc66;
+}
+
+.markdown-output .hljs-string {
+  color: #a8ff60;
+}
+
+.markdown-output .hljs-comment {
+  color: #999999;
+  font-style: italic;
+}
+
+/* Better lists and spacing */
+.markdown-output ul {
+  margin-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.markdown-output li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-output strong {
+  color: #ff8080;
+}
+
+.markdown-output em {
+  color: #b0b0b0;
+  font-style: italic;
+}
